@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop - Contato</title>
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/Js/index.Js">
+        <!-- 
+
+        Esse é um exercício em HTML. 
+        Nesta página, você deve criar um cabeçalho, um conteúdo principal e um rodapé.
+        O cabeçalho deve conter um título e um menu de navegação com três links: Home, Loja e Contato.
+        O conteúdo principal deve conter uma seção com um título e um parágrafo.
+        O rodapé deve conter um parágrafo com o texto "© 2024 Petshop. Todos os direitos reservados.".
+
+        Adicione um formulário de contato com campos para nome, email, telefone e mensagem.
+
+    -->
+    
+</head>
+<body class="teste">
+    <!-- Cabeçalho -->
+    <header>
+        <div class="titulo">
+            <h1>Entre em Contato</h1>
+        </div>
+        <div class="texto1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="loja.html">Loja</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div class="texto2">
+        <main>
+            <section>
+                <h2>Informações de Contato</h2>
+                <p>Entre em contato conosco para agendar serviços, tirar dúvidas ou fornecer feedback. Estamos aqui para ajudar!</p>
+                <p>Telefone: (XX) XXXX-XXXX</p>
+                <p>Email: contato@petshop.com</p>
+            </section>
+            <!-- 
+    
+                Adicionar um formulário de contato com campos para nome, email, telefone e mensagem.
+    
+            -->
+            <form>
+                <label for="fname">Primerio nome:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="primeiro nome"><br>
+                <label for="lname">Sobrenome:</label><br>
+                <input type="text" id="lname" name="lname"><br> 
+                <label for="fname">E-mail:</label><br>
+                <input type="email" id="e-mail" name="e-mail" required><br> 
+                <label for="fname">telefone:</label><br>
+                <input type="tel" id="fname" name="fname" pattern="\([0-9]{2}\) [0-9]{4}-[0-9]{4}" title="Digite um telefone válido no formato (99) 9999-9999" required>><br> 
+                <label for="fname">mensagem:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <input type="datetime-local"><br>
+                <input type="submit" value="Submit"><br>
+              </form>
+        </main>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+        <p>&copy; 2024 Petshop. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
