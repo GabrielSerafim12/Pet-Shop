@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.img1 {
+        display: block;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    
+}
+
+.texto1 {
+    width: 100%;
+    margin: 30px; /* espaçamento fora */
+    display: flex; /* pesquisar sobre display flex */
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px; /* epaçamento dentro */
+    
+}
+
+.footer {
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.text {
+    padding: 20px;
+}
+
+/* . é para estilizar a class */
+/* #letra azul */
